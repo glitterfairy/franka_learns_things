@@ -1,0 +1,15 @@
+{
+  "name": "franka_does_things",
+  "version": "1.0.0",
+  "description": "Franka lernt Sachen ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johanna Franka Schleipen <johannafrankaschleipen@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.26"
+  }
+}

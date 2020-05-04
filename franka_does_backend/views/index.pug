@@ -1,0 +1,30 @@
+html
+  head
+    title= "Franka does things"
+    link(rel="stylesheet" type="text/css" href="styles.css" media="screen")
+  body
+    #main-header
+      h1
+        i= "Franka does things"
+      img(src="Franka.jpeg")
+
+    p= "TODAY: learning how to build a website using HTML"
+
+    #doggos
+      h2= "But first, these are my Dogs"
+      each dog in doggos
+        .dog-name
+          span.label= "Name: "
+          span.value= dog.name
+        .dog-age
+          span.label= "Age: "
+          span.value= dog.age
+
+    p
+      .text= "The first trial of this website was built by following the instructions of"
+      a(href = "https://www.youtube.com/watch?v=05VH42GWu28")
+        i="this"
+      .text= "video."
+
+    h1= "Franka knows how to add images to HTML documents"
+    img(src="photo_1.jpg")

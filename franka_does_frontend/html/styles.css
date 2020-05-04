@@ -1,0 +1,14 @@
+/* So geht ein Kommentar in css */
+
+#main-header h1 {
+  color: pink;
+}
+/* Zwei mit space getrennte Elemente im Selektor (Kopf) bedeutet:
+   (in diesem Beispiel) ein <h1> das direktes Kind eines Elementes
+   mit ID main-header ist.
+*/
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
