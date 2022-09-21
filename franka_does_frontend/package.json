@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "vue": "^2.6.11",
-    "vuetify": "^2.2.26"
+    "vuetify": "^2.6.10"
   }
 }
