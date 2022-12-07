@@ -9,7 +9,7 @@
   "author": "Johanna Franka Schleipen <johannafrankaschleipen@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mysql": "^2.18.1",
     "mysql-promise": "^5.0.0",
     "pug": "^2.0.4"
